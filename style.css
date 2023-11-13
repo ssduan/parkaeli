@@ -2,11 +2,10 @@
   font-family: 'HelveticaNeue';
   src:  url('fonts/HelveticaNeueBold.ttf') format('ttf');
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 	body {
-    font-size: 82%;
+    font-size: 20px;
     line-height: 70%;
-
   }
 }
 
@@ -16,7 +15,7 @@ body {
   text-align: center;
   font-family: "HelveticaNeue"; 
   font-weight: bold;
-  font-size: 70%;
+  font-size: 75%;
   line-height: 60%;
   margin:0;
   padding:0;
