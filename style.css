@@ -5,15 +5,14 @@
 
 body {
   text-transform: uppercase;
-  padding: var(--base);
   background-color: #97221A;
-  padding: 0;
   text-align: center;
-  display: grid;
   font-family: "HelveticaNeue"; 
   font-weight: bold;
   font-size: 82%;
   line-height: 70%;
+  margin:0;
+  padding:0;
 }
 
 
@@ -24,11 +23,18 @@ body {
   padding: 10px;
   position: absolute;
   bottom: 20px;
-  text-align: center;
 }
+
 
 
 
 img {
-  max-width: 90%;
+  display: block; 
+  margin: 45px;
+  position: absolute;
+  margin-top: 200px;
+
 }
+
+
+
