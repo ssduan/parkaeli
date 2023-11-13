@@ -2,24 +2,33 @@
   font-family: 'HelveticaNeue';
   src:  url('fonts/HelveticaNeueBold.ttf') format('ttf');
 }
-@media (max-width: 768px) {
-	body {
-    font-size: 20px;
+
+@media (max-width: 400px) {
+  .info  {
+    font-size: 50px;
     line-height: 70%;
   }
 }
+
+
 
 body {
   text-transform: uppercase;
   background-color: #97221A;
   text-align: center;
-  font-family: "HelveticaNeue"; 
-  font-weight: bold;
-  font-size: 75%;
   line-height: 60%;
   margin:0;
   padding:0;
 }
+
+p {
+  font-family: "HelveticaNeue"; 
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 50%;
+
+}
+
 
 .info {
   width: 100%;
