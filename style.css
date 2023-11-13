@@ -12,7 +12,23 @@ body {
   display: grid;
   font-family: "HelveticaNeue"; 
   font-weight: bold;
-  font-size: 14px;
+  font-size: 82%;
   line-height: 70%;
+}
 
+
+
+
+.info {
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+}
+
+
+
+img {
+  max-width: 90%;
 }
