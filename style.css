@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'HelveticaNeue';
+  src:  url('fonts/HelveticaNeueBold.ttf') format('ttf');
+}
+
+body {
+  text-transform: uppercase;
+  padding: var(--base);
+  background-color: #97221A;
+  padding: 0;
+  text-align: center;
+  display: grid;
+  font-family: "HelveticaNeue"; 
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 70%;
+
+}
