@@ -97,7 +97,7 @@ a:active {
 
 @media (max-width: 768px) {
   img[alt="PARK AELI"] {
-    width: 80%;   /* adjust to taste */
+    width: 70%;   /* adjust to taste */
     height: auto;
   }
 }
