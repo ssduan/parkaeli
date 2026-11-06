@@ -94,3 +94,10 @@ a:hover {
 a:active {
   color: black;
 }
+
+@media (max-width: 768px) {
+  img[alt="PARK AELI"] {
+    width: 80%;   /* adjust to taste */
+    height: auto;
+  }
+}
